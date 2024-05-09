@@ -1,4 +1,13 @@
 import gensim.downloader as api
+from numpy import dot
+
+# matrix dot product 3x3 size
+# explain steps
+# 1*1 + 2*4 + 3*7 = 1 + 8 + 21 = 30
+# 1*2 + 2*5 + 3*8 = 2 + 10 + 24 = 36
+a = [[1, 2, 3], [4, 5, 6], [7, 8, 9]]
+b = [[1, 2, 3], [4, 5, 6], [7, 8, 9]]
+print(dot(a, b))
 
 wv = api.load("glove-wiki-gigaword-50")
 

@@ -44,3 +44,6 @@ which poetry # e.g. /Users/username/learn-llm/.venv/bin/poetry
 ```
 poetry install
 ```
+
+- to run python from vscode, select interpreter in `vscode` (cmd+shift+p -> select interpretor)
+  ![alt text](select-interpretor.png)
