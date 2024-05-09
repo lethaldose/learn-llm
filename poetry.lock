@@ -382,24 +382,6 @@ pyparsing = ">=2.3.1"
 python-dateutil = ">=2.7"
 
 [[package]]
-name = "matplotlib-aximgcache"
-version = "0.1.0"
-description = "Easily store and re-replot matplotlib Axes content"
-optional = false
-python-versions = "*"
-files = [
-    {file = "matplotlib_aximgcache-0.1.0-py3-none-any.whl", hash = "sha256:fddf9816e216d13e6a2ed55345d478846a59edcd901237650091570fa100f49b"},
-]
-
-[package.dependencies]
-matplotlib = "*"
-Pillow = "*"
-
-[package.extras]
-dev = ["ipython", "nb-black", "nbval", "pre-commit", "pytest"]
-test = ["nb-black", "nbval", "pytest"]
-
-[[package]]
 name = "nltk"
 version = "3.8.1"
 description = "Natural Language Toolkit"
@@ -915,4 +897,4 @@ files = [
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.11"
-content-hash = "69713eb42437f84dc90e705f5d9da7b8b73a40b3135057bd5c6227c1f599453a"
+content-hash = "2d71d598e120f426a816c6bfdf583f45c7f7458ddb0897269dc38535da6cb557"
