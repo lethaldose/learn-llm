@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "learn-llm"
+version = "0.1.0"
+description = ""
+authors = ["AtulVerma <atulverma@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+numpy = "^1.26.4"
+matplotlib-aximgcache = "^0.1.0"
+scikit-learn = "^1.4.2"
+nltk = "^3.8.1"
+gensim = "^4.3.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
