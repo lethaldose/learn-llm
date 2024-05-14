@@ -40,3 +40,6 @@ venv.bak/
 
 # models
 models/
+
+# Idea
+.idea
