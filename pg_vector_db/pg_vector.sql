@@ -1,3 +1,4 @@
+-- pg vector database demo
 -- https://github.com/pgvector/pgvector
 -- in psql command line:
 -- CREATE EXTENSION vector;
