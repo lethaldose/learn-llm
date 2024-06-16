@@ -26,5 +26,7 @@ VALUES
 -- <=> - cosine distance
 -- <+> - L1 distance (added in 0.7.0)
 
+select *, embedding <-> '[1,2,3]'::vector as similarity from documents;
 select *, embedding <-> '[4,5,7]'::vector as similarity from documents;
+select *, embedding <=> '[4,5,6]'::vector as similarity from documents;
 select *, embedding <=> '[4,5,7]'::vector as similarity from documents;
